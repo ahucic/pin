@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="listaSQL">
+  <DataContextMoniker Name="/listaSQLDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3d603f66-48eb-456d-a06d-2da465fd3cd9" absoluteBounds="0.875, 0.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/listaSQLDataContext/lista_tablica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="01cdf692-c938-4841-a008-a7b2d89253c7" absoluteBounds="0.88999999999999968, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

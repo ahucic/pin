@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="lista_obaveza" Class="listaSQLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=lista_obaveza;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="lista_obavezaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.lista_tablica" Member="lista_tablicas">
+    <Type Name="lista_tablica">
+      <Column Name="listaID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="vrijeme" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Column Name="opis" Type="System.String" DbType="NChar(255) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
